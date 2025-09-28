@@ -37,8 +37,8 @@ flowchart LR
 - Conector oficial de **CosmosDB para Spark** para leer documentos JSON.  
 - Datos guardados en tablas Delta en la capa **Bronze**.  
 
-📄 Notebook Ingesta desde Azure SQL: [`01_bronze_sql_web.ipynb`](./notebooks/01_bronze_sql_web.ipynb)  
-📄 Notebook Ingesta desde CosmosDB: [`01_bronze_cosmos_app.ipynb`](./notebooks/01_bronze_cosmos_app.ipynb)  
+📄 Notebook Ingesta desde Azure SQL: [`01_bronze_sql_web.ipynb`](./notebooks/bronze/01_bronze_sql_web.ipynb)  
+📄 Notebook Ingesta desde CosmosDB: [`01_bronze_cosmos_app.ipynb`](./notebooks/bronze/01_bronze_cosmos_app.ipynb)  
 
 ---
 
@@ -49,7 +49,7 @@ flowchart LR
 - Eliminación de duplicados.  
 - Resultado: tabla **`silver_transacciones`**.  
 
-📄 Notebook: [`02_silver_master.ipynb`](./notebooks/02_silver_master.ipynb)  
+📄 Notebook: [`02_silver_master.ipynb`](./notebooks/silver/02_silver_master.ipynb)  
 
 ---
 
@@ -61,7 +61,7 @@ flowchart LR
   - **Mínimo / Máximo:** `MIN/MAX(monto)`  
 - Resultado: tabla **`gold_transacciones_agg`**.  
 
-📄 Notebook: [`03_gold_analytics.ipynb`](./notebooks/03_gold_analytics.ipynb)  
+📄 Notebook: [`03_gold_analytics.ipynb`](./notebooks/gold/03_gold_analytics.ipynb)  
 
 ---
 
