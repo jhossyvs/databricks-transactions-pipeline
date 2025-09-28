@@ -38,7 +38,7 @@ flowchart LR
 - Datos guardados en tablas Delta en la capa **Bronze**.  
 
 📄 Notebook Ingesta desde Azure SQL: [`01_bronze_sql_web.ipynb`](./notebooks/01_bronze_sql_web.ipynb)  
-📄 Notebook Ingesta desde CosmosDB: [`01_bronze_sql_app.ipynb`](./notebooks/01_bronze_sql_app.ipynb)  
+📄 Notebook Ingesta desde CosmosDB: [`01_bronze_cosmos_app.ipynb`](./notebooks/01_bronze_cosmos_app.ipynb)  
 
 ---
 
