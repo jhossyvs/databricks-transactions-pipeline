@@ -37,7 +37,8 @@ flowchart LR
 - Conector oficial de **CosmosDB para Spark** para leer documentos JSON.  
 - Datos guardados en tablas Delta en la capa **Bronze**.  
 
-📄 Notebook: [`01_bronze_ingest.ipynb`](./notebooks/01_bronze_ingest.ipynb)  
+📄 Notebook Ingesta desde Azure SQL: [`01_bronze_sql_web.ipynb`](./notebooks/01_bronze_sql_web.ipynb)  
+📄 Notebook Ingesta desde CosmosDB: [`01_bronze_sql_app.ipynb`](./notebooks/01_bronze_sql_app.ipynb)  
 
 ---
 
